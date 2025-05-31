@@ -46,6 +46,14 @@ activities = {
         "type": "Sport",
         "participants": []
     },
+    "Volleyball": {
+        "type": "Sport",
+        "participants": []
+    },
+    "Track and Field": {
+        "type": "Sport",
+        "participants": []
+    },
     "Photography": {
         "type": "Artistic",
         "participants": []
@@ -54,11 +62,27 @@ activities = {
         "type": "Artistic",
         "participants": []
     },
+    "Drama Club": {
+        "type": "Artistic",
+        "participants": []
+    },
+    "Sculpture": {
+        "type": "Artistic",
+        "participants": []
+    },
     "Mathletes": {
         "type": "Intellectual",
         "participants": []
     },
     "Debate Team": {
+        "type": "Intellectual",
+        "participants": []
+    },
+    "Science Olympiad": {
+        "type": "Intellectual",
+        "participants": []
+    },
+    "Robotics Club": {
         "type": "Intellectual",
         "participants": []
     }
@@ -90,3 +114,4 @@ def signup_for_activity(activity_name: str, email: str):
 
     activity["participants"].append(email)
     return {"message": f"Signed up {email} for {activity_name}"}
+
