@@ -36,6 +36,31 @@ activities = {
     "Chess Club": {
         "type": "Intellectual",
         "participants": []
+    },
+    # Additional activities to ensure minimum 4 of each type
+    "Tennis": {
+        "type": "Sport",
+        "participants": []
+    },
+    "Swimming": {
+        "type": "Sport",
+        "participants": []
+    },
+    "Photography": {
+        "type": "Artistic",
+        "participants": []
+    },
+    "Choir": {
+        "type": "Artistic",
+        "participants": []
+    },
+    "Mathletes": {
+        "type": "Intellectual",
+        "participants": []
+    },
+    "Debate Team": {
+        "type": "Intellectual",
+        "participants": []
     }
 }
 
